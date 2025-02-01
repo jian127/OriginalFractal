@@ -5,8 +5,6 @@ void draw() {
   background(255);
   myFractal(300, 300,600);
   fill(0);
-  textSize(21);
-  text("For Celine Lei Only <3", 200, 70);
 }
 public void myFractal(float x, float y, float len) {
   if (len < 18) {
